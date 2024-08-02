@@ -8278,6 +8278,10 @@ h1, h2, h3, h4, h5,
     font-size: 60px;
     font-weight: 800; }
     @media (max-width: 991.98px) {
+      .hero-wrap {
+    background-position: right  !important;
+
+      }
       .hero-wrap .slider-text h1 {
         font-size: 40px; } }
 
@@ -8289,11 +8293,13 @@ h1, h2, h3, h4, h5,
   .hero-wrap {
     height: 60vh !important;
     background-size: cover;
-    background-position: right !important;
+    justify-content: center;
+    background-position: right  !important;
+    /* background-position: center; */
   }
   #header-title {
-    font-size: 20px !important;
-   margin-top: -130px; 
+    font-size: 24px !important;
+   margin-top: -200px; 
   }
   .logo .app{
     color: white;
@@ -8500,11 +8506,14 @@ h1, h2, h3, h4, h5,
   background: #fff;
   border-radius: 4px; }
   @media (min-width: 992px) {
+
     .ftco-intro .services {
       margin-top: -50px; } }
 
 .services {
-  /* display: block; */
+  border: 5px solid var(--blue);
+  border-radius: 20px !important;
+  display: block;
   margin-top: 50px;
   width: 100%;
   position: relative;
@@ -8578,8 +8587,12 @@ h1, h2, h3, h4, h5,
       .services:hover .btn-custom span, .services.active .btn-custom span {
         color: #00bd56; }
   @media (max-width: 991.98px) {
+    
+    .ftco-intro{
+      margin-top: 100px !important;
+    }
     .services {
-      margin-bottom: 30px; } }
+      margin-bottom: 120px; } }
 
 .services-2 {
   width: 100%;
@@ -9144,8 +9157,13 @@ textarea.form-control {
   letter-spacing: 2px; }
 
 .heading-section h2 {
+  /* color: white; */
   font-size: 30px;
   font-weight: 800; }
+  .heading-section-2 h2{
+    font-weight: 800 !important;
+    color: white !important;
+  }
   @media (max-width: 767.98px) {
     .heading-section h2 {
       font-size: 28px; } }
